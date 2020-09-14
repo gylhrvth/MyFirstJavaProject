@@ -7,6 +7,8 @@ public class Main {
     public static void main(String[] args) {
         LocalDate startDay = LocalDate.now();
 
+
+        System.out.println("Calendar GUI\n");
         System.out.println("|Mo|Di|Mi|Do|Fr|Sa|So|");
         int i = 1;
         for (; i<startDay.withDayOfMonth(1).getDayOfWeek().getValue(); ++i)
